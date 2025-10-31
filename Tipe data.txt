@@ -1,0 +1,24 @@
+#1.Tambah Barang
+makanan = ["bakso","mie ayam","ketoprak","seblak","nasi uduk"]
+makanan.append("soto ayam")
+print(makanan)
+
+#2.Hapus Barang
+makanan = ["bakso","mie ayam","soto ayam","ketoprak","seblak","nasi uduk"]
+makanan.remove("bakso")
+print(makanan)
+
+#3.Lihat Daftar
+makanan = ["bakso","mie ayam","soto ayam","ketoprak","seblak","nasi uduk"]
+makanan.sort()
+print(makanan)
+
+#4.Hapus Semua
+makanan = ["bakso", "mie ayam", "soto ayam", "ketoprak", "seblak","nasi uduk"]
+makanan.pop(1)
+print(makanan)
+
+#5.Keluar
+makanan = ["bakso", "mie ayam", "soto ayam", "ketoprak", "seblak","nasi uduk"]
+makanan.clear()
+print(makanan)
